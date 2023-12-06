@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B190D412B1FEAFE00E03CA9 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B190D402B1FEAFE00E03CA9 /* Home.swift */; };
 		9BAE2C2C2B1FE0F20016CFAA /* FhazeliOSAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAE2C2B2B1FE0F20016CFAA /* FhazeliOSAppApp.swift */; };
 		9BAE2C2E2B1FE0F20016CFAA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAE2C2D2B1FE0F20016CFAA /* ContentView.swift */; };
 		9BAE2C302B1FE0F40016CFAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BAE2C2F2B1FE0F40016CFAA /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B190D402B1FEAFE00E03CA9 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		9BAE2C282B1FE0F20016CFAA /* FhazeliOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FhazeliOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BAE2C2B2B1FE0F20016CFAA /* FhazeliOSAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FhazeliOSAppApp.swift; sourceTree = "<group>"; };
 		9BAE2C2D2B1FE0F20016CFAA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B190D3F2B1FEA0D00E03CA9 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				9B190D402B1FEAFE00E03CA9 /* Home.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
 		9BAE2C1F2B1FE0F20016CFAA = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +63,7 @@
 			children = (
 				9BAE2C2B2B1FE0F20016CFAA /* FhazeliOSAppApp.swift */,
 				9BAE2C2D2B1FE0F20016CFAA /* ContentView.swift */,
+				9B190D3F2B1FEA0D00E03CA9 /* views */,
 				9BAE2C2F2B1FE0F40016CFAA /* Assets.xcassets */,
 				9BAE2C312B1FE0F40016CFAA /* Preview Content */,
 			);
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BAE2C2E2B1FE0F20016CFAA /* ContentView.swift in Sources */,
+				9B190D412B1FEAFE00E03CA9 /* Home.swift in Sources */,
 				9BAE2C2C2B1FE0F20016CFAA /* FhazeliOSAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
