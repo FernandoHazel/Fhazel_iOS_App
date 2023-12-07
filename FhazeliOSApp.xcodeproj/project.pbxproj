@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		9B190D412B1FEAFE00E03CA9 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B190D402B1FEAFE00E03CA9 /* Home.swift */; };
+		9B6A034C2B212E8E00C8B871 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6A034B2B212E8E00C8B871 /* Person.swift */; };
+		9B6A034F2B212FBD00C8B871 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6A034E2B212FBD00C8B871 /* Project.swift */; };
+		9B6A03512B21303B00C8B871 /* SocialMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6A03502B21303B00C8B871 /* SocialMedia.swift */; };
+		9B6A03532B21393500C8B871 /* PersonProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6A03522B21393500C8B871 /* PersonProfile.swift */; };
 		9BAE2C2C2B1FE0F20016CFAA /* FhazeliOSAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAE2C2B2B1FE0F20016CFAA /* FhazeliOSAppApp.swift */; };
 		9BAE2C2E2B1FE0F20016CFAA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAE2C2D2B1FE0F20016CFAA /* ContentView.swift */; };
 		9BAE2C302B1FE0F40016CFAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BAE2C2F2B1FE0F40016CFAA /* Assets.xcassets */; };
@@ -16,6 +20,10 @@
 
 /* Begin PBXFileReference section */
 		9B190D402B1FEAFE00E03CA9 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		9B6A034B2B212E8E00C8B871 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		9B6A034E2B212FBD00C8B871 /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		9B6A03502B21303B00C8B871 /* SocialMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMedia.swift; sourceTree = "<group>"; };
+		9B6A03522B21393500C8B871 /* PersonProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonProfile.swift; sourceTree = "<group>"; };
 		9BAE2C282B1FE0F20016CFAA /* FhazeliOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FhazeliOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BAE2C2B2B1FE0F20016CFAA /* FhazeliOSAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FhazeliOSAppApp.swift; sourceTree = "<group>"; };
 		9BAE2C2D2B1FE0F20016CFAA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,8 +46,19 @@
 			isa = PBXGroup;
 			children = (
 				9B190D402B1FEAFE00E03CA9 /* Home.swift */,
+				9B6A03522B21393500C8B871 /* PersonProfile.swift */,
 			);
 			path = views;
+			sourceTree = "<group>";
+		};
+		9B6A034D2B212EB300C8B871 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9B6A034B2B212E8E00C8B871 /* Person.swift */,
+				9B6A034E2B212FBD00C8B871 /* Project.swift */,
+				9B6A03502B21303B00C8B871 /* SocialMedia.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		9BAE2C1F2B1FE0F20016CFAA = {
@@ -61,6 +80,7 @@
 		9BAE2C2A2B1FE0F20016CFAA /* FhazeliOSApp */ = {
 			isa = PBXGroup;
 			children = (
+				9B6A034D2B212EB300C8B871 /* Models */,
 				9BAE2C2B2B1FE0F20016CFAA /* FhazeliOSAppApp.swift */,
 				9BAE2C2D2B1FE0F20016CFAA /* ContentView.swift */,
 				9B190D3F2B1FEA0D00E03CA9 /* views */,
@@ -149,7 +169,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BAE2C2E2B1FE0F20016CFAA /* ContentView.swift in Sources */,
+				9B6A034C2B212E8E00C8B871 /* Person.swift in Sources */,
+				9B6A03532B21393500C8B871 /* PersonProfile.swift in Sources */,
 				9B190D412B1FEAFE00E03CA9 /* Home.swift in Sources */,
+				9B6A03512B21303B00C8B871 /* SocialMedia.swift in Sources */,
+				9B6A034F2B212FBD00C8B871 /* Project.swift in Sources */,
 				9BAE2C2C2B1FE0F20016CFAA /* FhazeliOSAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
