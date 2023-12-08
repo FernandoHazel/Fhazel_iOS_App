@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct FhazeliOSAppApp: App {
+    
     var body: some Scene {
         WindowGroup {
-            Home()
+            ContentView()
         }
     }
 }

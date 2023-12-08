@@ -29,7 +29,7 @@ extension Person {
     static let myProfile = Person(
         name: "Fernando Hazel",
         photo: "https://i.postimg.cc/rFTjHSY2/PXL-20230413-222831589.jpg",
-        hobbies: ["coding", "gaming"],
+        hobbies: ["Coding", "Gaming", "Sports", "Reading"],
         projects: Project.myProjects,
         socialMedia: SocialMedia.mySocialMedia,
         photos: []

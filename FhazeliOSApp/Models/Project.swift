@@ -20,25 +20,25 @@ extension Project {
         Project(
             title: "Swift Course",
             description: "Learn to develop swift apps",
+            rating: 4,
+            photos: []
+        ),
+        Project(
+            title: "Kotlin Course",
+            description: "Learn to develop Kotlin apps",
             rating: 5,
             photos: []
         ),
         Project(
-            title: "Swift Course",
-            description: "Learn to develop swift apps",
+            title: "Unity Course",
+            description: "Learn to develop Unity apps",
             rating: 5,
             photos: []
         ),
         Project(
-            title: "Swift Course",
-            description: "Learn to develop swift apps",
-            rating: 5,
-            photos: []
-        ),
-        Project(
-            title: "Swift Course",
-            description: "Learn to develop swift apps",
-            rating: 5,
+            title: ".NET MAUI Course",
+            description: "Learn to develop MAUI apps",
+            rating: 3,
             photos: []
         )
     ]

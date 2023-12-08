@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct PersonProfileView: View {
+struct PersonProfile: View {
     let profilePictureUrl: String
     let name: String
     var pictureUrl: URL? {
@@ -35,9 +35,9 @@ struct PersonProfileView: View {
     }
 }
 
-struct PersonProfileView_Previews: PreviewProvider {
+struct PersonProfile_Previews: PreviewProvider {
     static var previews: some View {
-        PersonProfileView(profilePictureUrl:
+        PersonProfile(profilePictureUrl:
                             Person.myProfile.photo,
                           name: Person.myProfile.name)
     }
