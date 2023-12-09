@@ -49,6 +49,14 @@ struct ProfileDescription: View {
                 }
             }
             .padding(.horizontal)
+            
+            Divider()
+            
+            LeadingAlignedText(text: "Photos")
+                .font(.headline)
+            
+            Photos(photosNames: profile.photos)
+                .frame(height: 400)
         }
     }
 }

@@ -20,6 +20,11 @@ struct ContentView: View {
                 .tabItem {
                     Label("Social Media", systemImage: "network")
                 }
+            ProjectList(projects: Person.myProfile.projects)
+                .tag("projects")
+                .tabItem {
+                    Label("Projects", systemImage: "folder")
+                }
         }
     }
 }
